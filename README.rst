@@ -2,9 +2,14 @@
 ELECTRICITY
 ###########
 
-For static file management
+static file management
 
-#. you need a ~/.boto file to run amazon sync
+This provides an easier way to sync static files to the Amazon S3 CDN. It can upload an entire directory recursively applying public permissions.
+
+It attempts to only sync files that have changed by comparing the MD5 hash.
+
+#. you need a ~/.boto file to sync to amazon
+#. rackspace cdn is not yet supported but is planned
 
 Install from pip::
 
