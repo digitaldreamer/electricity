@@ -4,7 +4,7 @@ ELECTRICITY
 
 static file management
 
-This provides an easier way to sync static files to the Amazon S3 CDN. It can upload an entire directory recursively applying public permissions.
+This provides an easier way to sync static files to the Amazon S3 and Rackspace CDN. It can upload an entire directory recursively applying public permissions.
 
 It attempts to only sync files that have changed by comparing the MD5 hash.
 
