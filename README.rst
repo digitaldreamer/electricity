@@ -8,7 +8,12 @@ This provides an easier way to sync static files to the Amazon S3 and Rackspace 
 
 It attempts to only sync files that have changed by comparing the MD5 hash.
 
-#. you need a ~/.boto file to sync to amazon
+#. you need a ``~/.boto`` file to sync to amazon::
+
+    [Credentials]
+    aws_access_key_id = <your access key>
+    aws_secret_access_key = <your secret key>
+
 #. rackspace cdn is not yet supported but is planned
 
 Install from pip::
